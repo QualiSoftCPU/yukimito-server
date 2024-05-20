@@ -36,7 +36,7 @@
     "test": "jest",
     "start": "npx sequelize-cli db:seed:all && nodemon app.js",
     "dev": "nodemon app.js",
-    "build": "babel ./ --out-dir dist --config-file ./babel.config.js"
+    "build": "babel ./ --out-dir dist --config-file ./babel.config.js nodemon app.js"
   },
   "author": "",
   "license": "ISC",
